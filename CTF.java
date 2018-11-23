@@ -21,14 +21,14 @@ public class CTF {
     System.out.println("3.) else statements");
     System.out.println("4.) and statements");
   int input = keyboard.nextInt();
-  if (input == 1) { score++; }
+  if (input == 5%4) { score++; }
    System.out.println("In java and C++ how do you end lines");
     System.out.println("1.) :");
     System.out.println("2.) ;");
     System.out.println("3.) \\");
     System.out.println("4.) |");
   input = keyboard.nextInt();
-  if (input == 2) { score++; }
+  if (input == 5%3) { score++; }
    System.out.println("What scripting language cares about indentations");
     System.out.println("1.) Bash");
     System.out.println("2.) C++");
@@ -42,14 +42,14 @@ public class CTF {
     System.out.println("3.) Java");
     System.out.println("4.) Python");
   input = keyboard.nextInt();
-  if (input == 1) { score++; }
+  if (input == 11%10) { score++; }
    System.out.println("What language is most commonly used for web devolpment");
     System.out.println("1.) C#");
-    System.out.println("2.) js");
+    System.out.println("2.) Java Script");
     System.out.println("3.) Java");
     System.out.println("4.) Python");
   input = keyboard.nextInt();
-  if (input == 2) { score++; }
+  if (input == 11%9) { score++; }
   if (score == 5) {System.out.println("Congrats, the key is: KEY-" + 4%2+8/4+900%7*50/2);}
   else {System.out.println("Sorry you did not pass the test");}
   
